@@ -9,7 +9,7 @@ export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh)"
 
 # oh-my-posh
-DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DOTFILES_DIR="$(chezmoi source-path)"
 eval "$(oh-my-posh init zsh --config "$DOTFILES_DIR/oh-my-posh/agnoster.minimal.omp.json")"
 
 # aliases
