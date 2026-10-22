@@ -1,0 +1,14 @@
+# neovim path
+export PATH="/opt/nvim/bin:$PATH"
+
+# user binaries path
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+# zoxide init
+eval "$(zoxide init zsh)"
+
+# oh-my-posh
+eval "$(oh-my-posh init zsh)"
+
+# aliases
