@@ -1,3 +1,18 @@
 [user]
 	name = bkko79
 	email = bkko79@outlook.kr
+
+[init]
+    defaultBranch = master
+
+[pull]
+    rebase = false
+
+[core]
+    editor = nvim
+
+[color]
+    ui = auto
+
+[push]
+    autoSetupRemote = true
