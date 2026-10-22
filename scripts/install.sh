@@ -6,10 +6,10 @@ OS="$(uname)"
 
 case "$OS" in
 Linux)
-  ./scripts/install-linux.sh
+  ./install-linux.sh
   ;;
 Darwin)
-  ./scripts/install-macos.sh
+  ./install-macos.sh
   ;;
 *)
   echo "Unsupported OS"
