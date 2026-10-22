@@ -12,3 +12,7 @@ eval "$(zoxide init zsh)"
 eval "$(oh-my-posh init zsh)"
 
 # aliases
+
+# sources
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+source /usr/share/doc/fzf/examples/completion.zsh
